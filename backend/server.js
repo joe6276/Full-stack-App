@@ -10,6 +10,6 @@ app.use('/todos', router)
 app.use('/user', userRoutes)
 
 
-app.listen(process.env.PORT|| 4000,()=>{
+app.listen(process.env.PORT|| 5000,()=>{
     console.log(`Server is Running on Port : ${process.env.PORT}`);
 })
