@@ -4,9 +4,9 @@ dotenv.config()
 
 const sqlConfig = {
   user: process.env.DB_USER,
-  password: process.env.DB_PWD ,
+  password: process.env.SA_PASSWORD ,
   database: process.env.DB_NAME,
-  server: 'localhost',
+  server: 'database-fsa',
   pool: {
     max: 10,
     min: 0,
